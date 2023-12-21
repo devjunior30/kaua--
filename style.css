@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    padding-top: 160px;
+    background-color: darkred;
+}
+
+section {
+    display: flex;
+    justify-content: space-around;
+}
+
+div p {
+    opacity: 0;
+    position: absolute;
+    transition: opacity 2000ms;
+    font-size: 25px;
+    display: block;
+    margin-top: 122px;
+    color: #ffff;
+    height: 91px;
+    width: auto;
+    padding-top: 26px;
+    border-radius: 19px;
+}
+
+
+div p.principal {
+    opacity: 1;
+    text-align: center;
+}
+
+p::after {
+    content: "❤️";
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+p::before {
+    content: "❤️";
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+button {
+    height: 70px;
+    width: 200px;
+    font-size: 20px;
+    color: purple;
+    background-color: #000000;
+    border: none;
+    font-weight: 900;
+    text-align: center;
+    border-radius: 26px;
+    cursor: pointer;
+
+}
